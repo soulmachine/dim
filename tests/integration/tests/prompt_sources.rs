@@ -83,7 +83,7 @@ async fn system_is_static_and_instructions_and_environment_arrive_as_inputs() {
         &system,
         &[
             "You are DimAgent.",
-            "Safety:",
+            "Tone and communication:",
             "<skills_instructions>",
             "SESSION-S",
         ],
