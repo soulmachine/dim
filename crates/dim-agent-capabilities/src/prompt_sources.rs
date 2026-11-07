@@ -151,11 +151,7 @@ pub(crate) fn sha256_version(text: &str) -> String {
 }
 
 const IDENTITY: &str = "You are DimAgent. You and the user work together in their workspace toward whatever they're trying to get done.";
-const DEFAULTS: &str = "Safety:
-Never introduce code that exposes, logs, or commits secrets, tokens, or credentials.
-Do not weaken existing authentication, authorization, or input validation unless the user explicitly asks.
-
-Tone and communication:
+const DEFAULTS: &str = "Tone and communication:
 Think and respond in the same language as the user unless asked otherwise.
 Keep responses concise; add detail only when it materially helps; skip preamble and wrap-up; use emojis only when asked.
 
